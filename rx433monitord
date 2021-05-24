@@ -16,7 +16,7 @@ DAEMON=$DIR/rx433monitor
 DAEMON_NAME=rx433monitord
 
 # Add any command line options for your daemon here
-DAEMON_OPTS="-s webpi -p 7004"
+DAEMON_OPTS="-s webpi2 -p 50051"
 
 # This next line determines what user the script runs as.
 # Root generally not recommended but necessary if you are using the Raspberry Pi GPIO from Python.

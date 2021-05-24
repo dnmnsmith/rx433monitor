@@ -1,10 +1,10 @@
 IDIR =/home/pi/PIGPIO/
 CC=g++
-CFLAGS=-I$(IDIR) -Wall -g
+CFLAGS=-I$(IDIR) -Wall -g -fpermissive
 
 LDIR =
 
-LIBS=-lds_notify_event -lboost_thread -lboost_system  -lboost_filesystem -lcxxtools -lcxxtools-json -L/home/PI/PIGPIO -lpigpio -lrt -lm  -pthread 
+LIBS=-lboost_thread -lboost_system  -lboost_filesystem -lcxxtools -lcxxtools-json -L/home/PI/PIGPIO -lpigpio -lrt -lm  -pthread 
 
 DEPS = RcOok.h ClimeMetDecoder.h
 
